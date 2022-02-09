@@ -1,0 +1,41 @@
+.about {
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto 40px;
+
+  &__title {
+    background-color: $light-grey;
+    align-items: center;
+    padding: 20px;
+  }
+  &__h1 {
+    font-size: 27px;
+    color: $light-grey;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__link {
+      font-size: 12px;
+      text-decoration: none;
+      color: $dark-grey;
+
+      &:hover {
+        text-decoration: underline;
+        color: $purple;
+      }
+    }
+
+    &__img {
+      width: 10px;
+      margin: 8px;
+    }
+  }
+}

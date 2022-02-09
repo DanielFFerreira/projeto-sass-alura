@@ -47,6 +47,44 @@
   color: #A050BE;
 }
 
+.about {
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto 40px;
+}
+.about__title {
+  background-color: #eaeaeb;
+  align-items: center;
+  padding: 20px;
+}
+.about__h1 {
+  font-size: 27px;
+  color: #eaeaeb;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.about .breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .breadcrumb__link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #464646;
+}
+.about .breadcrumb__link:hover {
+  text-decoration: underline;
+  color: #A050BE;
+}
+.about .breadcrumb__img {
+  width: 10px;
+  margin: 8px;
+}
+
 .main {
   display: flex;
   justify-content: center;
